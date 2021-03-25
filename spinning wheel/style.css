@@ -1,0 +1,27 @@
+html { 
+  background: url(first.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn {
+    height: 100px;
+ 	width: 300px;
+ 	border:0;
+ 	background-size: 100%;
+ 	background-size: 150px 360px auto;
+    background-position: 50% 50%;
+    background-image: url("jouer-01.png");
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    position: absolute;
+    padding: 5%;
+ 	right: 5%;
+    bottom: 5%;
+
+}
+a:hover{
+transform: scale(1.1);
+}
+
